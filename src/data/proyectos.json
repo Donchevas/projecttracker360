@@ -1,0 +1,35 @@
+[
+  {
+    "id_clarity": "401001",
+    "nombre": "Sistema de Gesti\u00f3n de P\u00f3lizas",
+    "tipologia": "Proyecto TI",
+    "estado": "En ejecuci\u00f3n",
+    "fase": "Ejecuci\u00f3n",
+    "avance_real": 62,
+    "estado_semanal": "En riesgo",
+    "fecha_inicio": "2024-03-01",
+    "fecha_fin": "2024-11-15"
+  },
+  {
+    "id_clarity": "401002",
+    "nombre": "Portal Cliente Web",
+    "tipologia": "Evolutivo",
+    "estado": "Finalizado",
+    "fase": "Cierre",
+    "avance_real": 100,
+    "estado_semanal": "Al dia",
+    "fecha_inicio": "2023-10-15",
+    "fecha_fin": "2024-06-30"
+  },
+  {
+    "id_clarity": "401003",
+    "nombre": "APP m\u00f3vil Seguros",
+    "tipologia": "Proyecto TI",
+    "estado": "En ejecuci\u00f3n",
+    "fase": "Construcci\u00f3n",
+    "avance_real": 45,
+    "estado_semanal": "En riesgo",
+    "fecha_inicio": "2024-05-01",
+    "fecha_fin": "2024-12-20"
+  }
+]
