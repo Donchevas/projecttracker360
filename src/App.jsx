@@ -11,7 +11,7 @@ function App() {
   const total = data.length;
   const finalizados = data.filter(p => p.estado === 'Finalizado').length;
   const enRiesgo = data.filter(p => p.estado_semanal === 'En riesgo').length;
-  const promedioAvance = (data.reduce((sum, p) => sum + (p.avance_real || 0), 0) / total).toFixed(1);
+  const promedioAvance = total > 0 ? (data.reduce((sum, p) => sum + (p.avance_real || 0), 0) / total).toFixed(1) : 0;
 
   return (
     <div style={{ fontFamily: 'Arial', padding: '20px' }}>
